@@ -1,0 +1,96 @@
+/*Autor: Diego Juan
+//Instagram: @eldiiegojuan | https://www.instagram.com/eldiiegojuan/?hl=pt-br
+//Direitos reservados
+*/
+
+main {
+    padding: 0px;
+    display: flex;  
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 14px;
+}
+
+label { 
+    font-weight: bold;
+}
+
+div {
+    padding-bottom: 4px;
+}
+
+.campoTexto {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-color: #D9EDF7; 
+    border-radius: 4px;  
+}
+
+.painel {
+    margin-right: 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #D9EDF7;
+    flex-grow: 1;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.conteudo-painel {
+    padding: 15px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+
+#form{
+    border: 2px black;
+}
+
+h1 {
+    background-color: #D9EDF7;  
+    color: #286090;
+    margin: 0;
+    padding: 12px; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    background-color: #D9EDF7;  
+    color: black;
+    margin: 0;
+    padding: 12px; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h2 {
+    background-color: #D9EDF7;  
+    color: #286090;
+    margin: 0;
+    padding: 12px; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#btn{
+    color: #FFFEFA;
+    text-align: center;
+}
+
+footer{  
+    padding-right: 10px;
+    text-align: center;
+}

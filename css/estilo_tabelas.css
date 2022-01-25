@@ -1,0 +1,63 @@
+/*Autor: Diego Juan
+//Instagram: @eldiiegojuan | https://www.instagram.com/eldiiegojuan/?hl=pt-br
+//Direitos reservados
+*/ 
+
+.tabela {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+  }
+  .tabela td, table.tabela th {
+    border: 2px solid #000000;
+    padding: 4px 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+  }
+  .tabela tbody td {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .tabela thead {
+    background: #FCFEFF;
+    background: -moz-linear-gradient(top, #fdfeff 0%, #fcfeff 66%, #FCFEFF 100%);
+    background: -webkit-linear-gradient(top, #fdfeff 0%, #fcfeff 66%, #FCFEFF 100%);
+    background: linear-gradient(to bottom, #fdfeff 0%, #fcfeff 66%, #FCFEFF 100%);
+  }
+  .tabela thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+  }
+  .tabela tfoot td {
+    font-size: 16px;
+  }
+
+  h1{
+      text-align: center;
+  }
+
+  .tabela td {
+    border:2px solid black;
+    padding:5px;
+    
+    top: 0;
+
+    width: 200px;
+    min-width: 50px;
+    height: 50px;
+    
+    
+}
+
+.tabela td:hover{
+  top:-4px;
+  box-shadow:0 4px 4px #000000;
+  transition: all .3s ease-in-out; 
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
